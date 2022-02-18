@@ -15,6 +15,7 @@
 
  ## DEMO
  <p><em><a href="https://glycemicindex.herokuapp.com/">DEMO</a></br>
+ (Proje de veriler h2 veritabanı kullanıldığı için gelmemektedir.)
  
  ## Backend Kodları
  <p><em><a href="https://github.com/Buse5/Glycemic-BackEnd">BACKEND KODLARI</a></br>
