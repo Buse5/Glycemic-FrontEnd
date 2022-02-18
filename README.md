@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+# Glycemic
+-Projenin asıl amacı istediğiniz zaman uygulamaya girerek gıdaların glisemik index değerlerine ulaşmaktır. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-Kullanıcı uygulamaya ilk giriş yaptığında tüm ürünlerin glisemik index değerlerine ulaşabilir. 
 
-## Available Scripts
+-Kullanıcılar kayıt olup giriş yaptıktan sonra gıda eklemesi yapabilirler. Bu gıdalar admin tarafından kontrol edilerek uygun görünmesi halinde yayınlanır, uygun bulunmaz ise silinir.
 
-In the project directory, you can run:
+-Admin, kullanıcı ve global olmak üzere üç rol vardır. 
 
-### `npm start`
+-Global kullanıcılar, kayıt olmadan gıdaları inceleyebilirler.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-Kayıtlı kullanıcılar, gıdaları inceleyebilir, gıda ekleyebilirler.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-Admin gıda ekleyebilir, silebilir, kayıtlı kullanıcılardan gelen gıdaları kontrol ederek uygun byulması halinde yayınlayabilir
 
-### `npm test`
+ ## LIVE DEMO
+ <p><em><a href="https://glycemicindex.herokuapp.com/">LIVE DEMO</a></br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ## Diller ve Kabiliyetler 👩‍💻
 
-### `npm run build`
+| Dil / Kabiliyet | :arrow_right: | % |
+| ------------- |:-------------:|:-------------:|
+| Spring Boot | :arrow_right: | 90 |
+| Spring Security | :arrow_right: | 80 |
+| React JS | :arrow_right: | 90 |
+| Spring-JPA | :arrow_right: | 90 |
+| Semantic UI | :arrow_right: | 90 |
+| H2 Database | :arrow_right: | 90 |
+| React JS | :arrow_right: | 90 |
+| TypeScript | :arrow_right: | 80 |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo Hesap Bilgileri
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| E-mail | Password | Role |
+| ------------- |:-------------:|:-------------:|
+| ```buse@mail.com``` | ```12345``` | admin |
+| ```murat@mail.com```| ```12345``` | user|
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Proje Resimleri
 
-### `npm run eject`
+### Kayıt Ol / Giriş Yap
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/Kay%C4%B1tOl.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/Kay%C4%B1tOl.PNG" width="400" height="200" style="max-width:100%;"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/Girisyap.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/Girisyap.PNG" width="400" height="200" style="max-width:100%;"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Girişsiz Anasayfa / Gıda Detay
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/GirissizAnasayfa.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/GirissizAnasayfa.PNG" width="400" height="200" style="max-width:100%;"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/Detay.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/Detay.PNG" width="400" height="200" style="max-width:100%;"></a>
 
-## Learn More
+### Admin Anasayfa / Gıda Ekle
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/AdminAnasayfa.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/AdminAnasayfa.PNG" width="400" height="200" style="max-width:100%;"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/G%C4%B1daEkle.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/G%C4%B1daEkle.PNG" width="400" height="200" style="max-width:100%;"></a>
+
+### Admin Eklediklerim / Gıda Onay Ekranı
+
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/AdminEklediklerim.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/AdminEklediklerim.PNG" width="400" height="200" style="max-width:100%;"></a>
+
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/AdminOnay.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/AdminOnay.PNG" width="400" height="200" style="max-width:100%;"></a>
+
+### Menü / Çıkış Ekranı
+
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/Men%C3%BCn%C3%BCz.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/Men%C3%BCn%C3%BCz.PNG" width="400" height="200" style="max-width:100%;"></a>
+
+<a href="https://github.com/Buse5/Glycemic/blob/master/Images/%C3%87%C4%B1k%C4%B1%C5%9F%C4%B0%C5%9Flemi.PNG" target="_blank">
+<img src="https://github.com/Buse5/Glycemic/blob/master/Images/%C3%87%C4%B1k%C4%B1%C5%9F%C4%B0%C5%9Flemi.PNG" width="400" height="200" style="max-width:100%;"></a>
+
