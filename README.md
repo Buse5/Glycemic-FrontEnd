@@ -17,7 +17,7 @@
  <p><em><a href="https://glycemicindex.herokuapp.com/">DEMO</a></br>
  
  ## Backend Kodları
- <p><em><a href="https://github.com/Buse5/Glycemic-BackEnd">BACKEND KODLAR</a></br>
+ <p><em><a href="https://github.com/Buse5/Glycemic-BackEnd">BACKEND KODLARI</a></br>
 
  ## Diller ve Kabiliyetler 👩‍💻
 
