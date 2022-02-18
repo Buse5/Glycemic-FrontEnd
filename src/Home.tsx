@@ -4,15 +4,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import { IFoods, ResultFoods } from './models/IFoods';
 import NavBar from './components/NavBar';
 import FoodItems from './components/FoodItems';
-import { zoomIn } from 'react-animations'
-import styled, { keyframes } from 'styled-components';
 import { Grid, Icon, Input, Label, Pagination, PaginationProps, Select } from 'semantic-ui-react';
 import { categories } from './Datas';
 
-const animation = keyframes`${zoomIn}`
-const AnimateDiv = styled.div`
-  animation: forwards 2s ${animation};
-`;
 
 export default function Home() {
 
@@ -112,9 +106,9 @@ export default function Home() {
     <>
       <ToastContainer />
       <NavBar />
-      <AnimateDiv >
+
         <h1 style={{ textAlign: "center", color: "tomato", textShadow: "initial", fontFamily: "monospace", fontSize: 50 }}> ALL FOODS </h1>
-      </AnimateDiv>
+ 
 
       <Grid columns='2'>
         <Grid.Row>

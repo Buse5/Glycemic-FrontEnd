@@ -51,6 +51,11 @@
     ]
   },
   "engines": {
-    "node":"17.x"
+    "node": "17.x"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/react-animations": "^1.0.0",
+    "@types/styled-components": "^5.1.23"
   }
 }

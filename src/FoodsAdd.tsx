@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { zoomIn } from 'react-animations';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify'
 import { Form,InputOnChangeData, Label, Segment } from 'semantic-ui-react'
-import styled, { keyframes } from 'styled-components';
 import NavBar from './components/NavBar';
 import { categories } from './Datas';
 import { ISingleFoods } from './models/IFoods';
 import { foodAdd } from './Services';
 import { autControl } from './Util';
 
-const animation = keyframes`${zoomIn}`
-const AnimateDiv = styled.div`
-  animation: forwards 2s ${animation};
-`;
 export default function FoodsAdd() {
   
   const navigate = useNavigate()
@@ -106,9 +100,9 @@ export default function FoodsAdd() {
     <>
       <ToastContainer />
       <NavBar />
-      <AnimateDiv >
+
         <h1 style={{ textAlign: "center", color: "tomato", textShadow: "initial", fontFamily: "monospace", fontSize: 50 }}>GIDA EKLE</h1>
-      </AnimateDiv>
+
 
       <Segment raised as='h2'>
         <Label as='a' color='orange' ribbon>

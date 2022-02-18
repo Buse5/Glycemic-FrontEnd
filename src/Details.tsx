@@ -1,18 +1,12 @@
 import moment from 'moment'
 import React, { useEffect, useState } from 'react'
-import { zoomIn } from 'react-animations'
 import { useParams } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 import { Card, Icon, Item } from 'semantic-ui-react'
-import styled, { keyframes } from 'styled-components'
 import NavBar from './components/NavBar'
 import { ISingleFoods, ResultFoods } from './models/IFoods'
 import { foodDetails } from './Services'
 
-const animation = keyframes`${zoomIn}`
-const AnimateDiv = styled.div`
-  animation: forwards 2s ${animation};
-`;
 
 export default function Details() {
     const [food, setFood] = useState<ResultFoods>()
@@ -40,9 +34,7 @@ export default function Details() {
         <>
              <ToastContainer />
       <NavBar />
-      <AnimateDiv >
         <h1 style={{ textAlign: "center", color: "tomato", textShadow: "initial", fontFamily: "monospace", fontSize: 50 }}> {food?.name} Detayı</h1>
-      </AnimateDiv>
       <Card.Group>
                 <Card fluid>
                     <Card.Content>

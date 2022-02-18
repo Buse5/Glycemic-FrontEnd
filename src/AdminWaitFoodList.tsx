@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { zoomIn } from 'react-animations'
 import { useNavigate } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 import { Grid } from 'semantic-ui-react'
-import styled, {keyframes } from 'styled-components'
 import FoodItems from './components/FoodItems'
 import NavBar from './components/NavBar'
 import { IFoods, ResultFoods } from './models/IFoods'
 import { adminWaitFoodList } from './Services'
 import { autControl, control } from './Util'
 
-const animation = keyframes`${zoomIn}`
-const AnimateDiv = styled.div`
-  animation: forwards 2s ${animation};
-`;
 
 export default function AdminWaitFoodList() {
 
@@ -60,9 +54,9 @@ export default function AdminWaitFoodList() {
     <>
       <ToastContainer />
       <NavBar />
-      <AnimateDiv >
+
         <h1 style={{ textAlign: "center", color: "tomato", textShadow: "initial", fontFamily: "monospace", fontSize: 50 }}>ONAY BEKLEYEN GIDALAR</h1>
-      </AnimateDiv>
+
 
       <Grid >
             { foodsArr.map((item, index) => 

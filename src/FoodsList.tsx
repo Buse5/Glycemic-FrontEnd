@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { zoomIn } from 'react-animations';
 import { useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify'
 import { Grid } from 'semantic-ui-react';
-import styled, { keyframes } from 'styled-components';
 import FoodItems from './components/FoodItems';
 import NavBar from './components/NavBar'
 import { IFoods, ResultFoods } from './models/IFoods';
@@ -11,10 +9,6 @@ import { userFoodList } from './Services';
 import { autControl } from './Util';
 
 
-const animation = keyframes`${zoomIn}`
-const AnimateDiv = styled.div`
-  animation: forwards 2s ${animation};
-`;
 export default function FoodsList() {
     const navigate = useNavigate()
     const [foodsArr, setFoodsArr] = useState<ResultFoods[]>([]);
@@ -47,9 +41,9 @@ export default function FoodsList() {
         <>
             <ToastContainer />
             <NavBar />
-            <AnimateDiv >
+  
                 <h1 style={{ textAlign: "center", color: "tomato", textShadow: "initial", fontFamily: "monospace", fontSize: 50 ,marginBottom:20}}>EKLDEDİĞİM GIDALAR</h1>
-            </AnimateDiv>
+
 
             <Grid >
             { foodsArr.map((item, index) => 

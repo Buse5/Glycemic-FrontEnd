@@ -3,9 +3,9 @@ import { Menu, Button, Modal, Form, Icon, Label, MenuItem, Header, Feed, Card } 
 import { cities } from '../Datas';
 import { IUser, UserResult } from '../models/IUser';
 import { logout, userAndAdminLogin, userRegister } from '../Services';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { allDataBasket, control, deleteItemBasket, encryptData } from '../Util';
-import { Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { ResultFoods } from '../models/IFoods';
 
 export default function NavBar() {
