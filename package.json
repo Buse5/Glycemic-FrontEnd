@@ -50,9 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@types/crypto-js": "^4.1.0",
-    "@types/react-animations": "^1.0.0",
-    "@types/styled-components": "^5.1.22"
+  "engines": {
+    "node":"16.x"
   }
 }
