@@ -14,7 +14,7 @@
 -Admin gıda ekleyebilir, silebilir, kayıtlı kullanıcılardan gelen gıdaları kontrol ederek uygun byulması halinde yayınlayabilir
 
  ## DEMO
- <p><em><a href="https://glycemicindex.herokuapp.com/">LIVE DEMO</a></br>
+ <p><em><a href="https://glycemicindex.herokuapp.com/">DEMO</a></br>
  
  ## Backend Kodları
  <p><em><a href="https://github.com/Buse5/Glycemic-BackEnd">BACKEND KODLAR</a></br>
