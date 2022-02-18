@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import FoodItems from './components/FoodItems';
 import { zoomIn } from 'react-animations'
 import styled, { keyframes } from 'styled-components';
-import { Dropdown, DropdownProps, Form, FormField, Grid, Icon, Input, Item, Label, Pagination, PaginationProps, Select } from 'semantic-ui-react';
+import { Grid, Icon, Input, Label, Pagination, PaginationProps, Select } from 'semantic-ui-react';
 import { categories } from './Datas';
 
 const animation = keyframes`${zoomIn}`

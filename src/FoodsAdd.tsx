@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { zoomIn } from 'react-animations';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify'
-import { Form, Grid, Header, InputOnChangeData, Label, Segment } from 'semantic-ui-react'
+import { Form,InputOnChangeData, Label, Segment } from 'semantic-ui-react'
 import styled, { keyframes } from 'styled-components';
 import NavBar from './components/NavBar';
 import { categories } from './Datas';

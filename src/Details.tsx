@@ -6,7 +6,6 @@ import { toast, ToastContainer } from 'react-toastify'
 import { Card, Icon, Item } from 'semantic-ui-react'
 import styled, { keyframes } from 'styled-components'
 import NavBar from './components/NavBar'
-import { categories } from './Datas'
 import { ISingleFoods, ResultFoods } from './models/IFoods'
 import { foodDetails } from './Services'
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Button, Grid, Icon, Label, Segment } from 'semantic-ui-react';
 import { ISingleFoods, ResultFoods } from '../models/IFoods';
 import Moment from 'moment';
